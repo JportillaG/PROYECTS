@@ -1,0 +1,21 @@
+Algoritmo EJERCICIO_3
+	Definir num,n, i,j, obj Como Entero
+	Escribir "inserte la dimensión:"
+	Leer n
+	Escribir "inserte el número objetivo:"
+	Leer obj
+	Dimension num[n]
+	
+	Escribir "los numeros de la dimnesión nums son:"
+	Para i=0 hasta n-1 con paso 1 Hacer
+		Leer num[i]
+	FinPara
+	
+	Para i= 0 hasta N-1 con paso 1 hacer
+		Para j=i+1 hasta n-1 con paso 1 hacer
+			Si num[i]+num[j] == obj Entonces
+				Escribir "las dimensiones de lo números que sumados resulta el objetivo son: " ,i," y ",j
+			FinSi
+		FinPara
+	FinPara
+FinAlgoritmo

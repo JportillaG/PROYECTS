@@ -1,0 +1,24 @@
+Algoritmo EJERCICIO_2
+	Definir num, v , res, i Como Entero
+	Leer num
+	v=0
+	si num%10 == 0 Entonces
+		Escribir "no es un palindromo"
+	SiNo
+		v=0
+	FinSi
+	
+	Mientras val<num hacer
+		res= num%10
+		i = trunc(num/10)
+		num = trunc(num/10)
+		v = v*10 + res
+		Escribir num,"  ",v
+	FinMientras
+	
+	si trunc(v/10) == num Entonces
+		Escribir "es un palindromo"
+	SiNo
+		Escribir "no es un palindromo"
+	FinSi
+FinAlgoritmo

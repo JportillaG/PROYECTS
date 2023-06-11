@@ -1,0 +1,41 @@
+Algoritmo EJERCICIO_1
+	Definir n, i, j,v1,v2 Como entero
+	Escribir "inserte un número:"
+	Leer n
+	
+	Para i=1 hasta n con paso 1 Hacer
+		Para j=1 hasta n Hacer
+			v1=j
+			Si v1>i Entonces
+				v1=i
+			FinSi
+			Escribir Sin Saltar v1," "
+		FinPara
+		Para j=n-1 hasta 1 con paso -1 hacer
+			v2=j
+			si v2>i entonces
+				v2=i
+			FinSi
+			Escribir Sin Saltar v2," "
+		FinPara
+		Escribir " "
+	FinPara
+	
+	Para i=n-1 hasta 1 con paso -1 Hacer
+		Para j=1 hasta n Hacer
+			v1=j
+			Si v1>i Entonces
+				v1=i
+			FinSi
+			Escribir Sin Saltar v1," "
+		FinPara
+		Para j=n-1 hasta 1 con paso -1 hacer
+			v2=j
+			si v2>i entonces
+				v2=i
+			FinSi
+			Escribir Sin Saltar v2," "
+		FinPara
+		Escribir " "
+	FinPara
+FinAlgoritmo
